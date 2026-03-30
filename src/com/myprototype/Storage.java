@@ -138,7 +138,7 @@ class HandlerImpl implements Handler {
     @Override
     public User clone(User user) throws CloneNotSupportedException {
 
-        // Clonning user.
+        // Cloning user.
         User userCloned = user.copy();
 
         // Return statement.
